@@ -28,6 +28,7 @@ export interface PaginationProps extends Omit<ReactDivAttr, ExcludedAttributes> 
     pagesUnknown?: boolean | undefined,
     size?: "sm" | "md" | "lg" | undefined;
     totalItems?: number | undefined,
+    disabled?: boolean | false,
 }
 
 declare class Pagination extends React.Component<PaginationProps> { }
